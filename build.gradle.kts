@@ -29,7 +29,7 @@ repositories {
 
 dependencies {
     compile(kotlinModule("stdlib-jdk8", kotlin_version))
-    compile("io.swagger.parser.v3:swagger-parser-v3:2.0.0")
+    compile("io.swagger:swagger-parser:1.0.35")
     compile("com.squareup:kotlinpoet:0.7.0")
     compile("com.squareup.retrofit2:retrofit:2.4.0")
 }
